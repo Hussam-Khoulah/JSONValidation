@@ -1,11 +1,13 @@
+const get = require ('lodash/get');
 const express = require('express');
 const router = express.Router();
 
 // generic route handler
-const genericHandler = function (req, res, next) {
+const genericHandler = (req, res, next) => {
     res.json({
         status: 'success',
-        data: req.body
+        data: req.body,
+        code: get(req, 'code', 'no code ok'),
     })
 };
 
