@@ -1,6 +1,7 @@
 const get = require ('lodash/get');
 const express = require('express');
 const router = express.Router();
+const SchemaValidator = require('./middlewares/SchemaValidator');
 
 // We are using the formatted Joi Validation error
 // Pass false as argument to use a generic error
