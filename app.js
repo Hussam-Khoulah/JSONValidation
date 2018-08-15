@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // load api routes
-app.use('/', routes);
+app.use('/validate', routes);
 
 
 /* app.js */
