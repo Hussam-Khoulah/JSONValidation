@@ -2,7 +2,7 @@
 
 const _ = require('lodash');
 const Joi = require('joi');
-const Schemas = require('../schemas');
+const Schemas = require('../../schemas');
 
 module.exports = (useJoiError = false) => {
     // useJoiError determines if we should respond with the base Joi error

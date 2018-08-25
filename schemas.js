@@ -32,15 +32,14 @@ const personDataSchema = Joi.object().keys({
         otherwise: ageSchema
     })
 })
+    // must have only one between firstname and lastname
+    .xor('firstname', 'fullname')
 
-// must have only one between firstname and lastname
-.xor('firstname', 'fullname')
+    // firstname and lastname must always appear together
+    .and('firstname', 'lastname')
 
-// firstname and lastname must always appear together
-.and('firstname', 'lastname')
-
-// firstname and lastname cannot appear together with fullname
-.without('fullname', ['firstname', 'lastname']);
+    // firstname and lastname cannot appear together with fullname
+    .without('fullname', ['firstname', 'lastname']);
 
 // password and confirmPassword must contain the same value
 const authDataSchema = Joi.object({
