@@ -12,7 +12,7 @@ const genericHandler = (req, res, next) => {
     res.json({
         status: 'success',
         data: req.body,
-        code: get(req, 'code', 'no code ok'),
+        code: get(req, 'code', 'ok'),
     })
 };
 
