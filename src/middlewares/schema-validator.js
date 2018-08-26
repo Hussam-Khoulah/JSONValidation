@@ -1,8 +1,7 @@
-/* middlewares/SchemaValidator.js */
+/* middlewares/schema-validator.js */
 
 const _ = require('lodash');
 const Joi = require('joi');
-const Schemas = require('../../schemas');
 
 module.exports = (useJoiError = false) => {
     // useJoiError determines if we should respond with the base Joi error
@@ -23,12 +22,13 @@ module.exports = (useJoiError = false) => {
     return (req, res, next) => {
 
         const route = req.route.path;
+        console.log('route: ' + route);
         const method = req.method.toLowerCase();
 
-        if (_.includes(_supportedMethods, method) && _.has(Schemas, route)) {
+        if (_.includes(_supportedMethods, method)) {
 
             // get schema for the current route
-            const _schema = _.get(Schemas, route);
+            const _schema = require('../schemas' + route);
 
             if (_schema) {
 
