@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d55c8db-13ee-4213-b786-665d83c992c1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/hcn/booking/paymentSchema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/hcn/search/requestBodySchema.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/schemas.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/middlewares/schema-validator.js" afterPath="$PROJECT_DIR$/src/middlewares/schema-validator.js" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
-      <change beforePath="$PROJECT_DIR$/src/schema-loader.js" afterPath="$PROJECT_DIR$/src/schema-loader.js" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/hcn/booking/paymentSchema.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js" afterPath="$PROJECT_DIR$/src/schemas/hcn/availability/requestBodySchema.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,28 +27,48 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="315">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema-loader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schema-loader.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+            <state relative-caret-position="60">
+              <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema-validator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requestBodySchema.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/schemas/hcn/search/requestBodySchema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requestBodySchema.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/schemas/hcn/availability/requestBodySchema.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema-validator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/middlewares/schema-validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="55" column="95" lean-forward="true" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
+            <state relative-caret-position="585">
+              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -92,10 +111,12 @@
         <option value="$PROJECT_DIR$/src/schemas/sample/personSchema.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/paymentSchema.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/authSchema.js" />
+        <option value="$PROJECT_DIR$/src/schema-loader.js" />
+        <option value="$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js" />
+        <option value="$PROJECT_DIR$/src/schemas/hcn/search/requestPayloadSchema.js" />
+        <option value="$PROJECT_DIR$/src/schemas/hcn/search/requestBodySchema.js" />
         <option value="$PROJECT_DIR$/src/middlewares/schema-validator.js" />
         <option value="$PROJECT_DIR$/src/routes.js" />
-        <option value="$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js" />
-        <option value="$PROJECT_DIR$/src/schema-loader.js" />
       </list>
     </option>
   </component>
@@ -149,6 +170,41 @@
               <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
+              <item name="hcn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
+              <item name="hcn" type="462c0819:PsiDirectoryNode" />
+              <item name="availability" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
+              <item name="hcn" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -179,10 +235,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/schemas/hcn/availability" />
       <recent name="$PROJECT_DIR$/src/schemas/hcn/booking" />
       <recent name="$PROJECT_DIR$/src/schemas/hcn/search" />
       <recent name="$PROJECT_DIR$/src/schemas/hcn/reprice" />
-      <recent name="$PROJECT_DIR$/src/schemas/hcn/availability" />
       <recent name="$PROJECT_DIR$/src/schemas/hcn/availability/testFolder" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -215,16 +271,15 @@
       <option name="presentableId" value="Default" />
       <updated>1534051552775</updated>
       <workItem from="1534051554203" duration="19955000" />
-      <workItem from="1535148956026" duration="31607000" />
+      <workItem from="1535148956026" duration="38044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51562000" />
+    <option name="totallyTimeSpent" value="57999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -342,14 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/schemas/hcn/availability/paymentSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -366,26 +413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/schemas/sample/personSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="75" lean-forward="true" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -414,14 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/schema-loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -430,10 +453,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/availability/requestBodySchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/middlewares/schema-validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="55" column="95" lean-forward="true" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
+        <state relative-caret-position="585">
+          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/search/requestBodySchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding />
         </state>
       </provider>

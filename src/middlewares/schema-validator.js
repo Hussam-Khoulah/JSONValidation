@@ -38,35 +38,25 @@ module.exports = (useJoiError = false) => {
 
                         // Joi Error
                         const JoiError = {
-                            status: 'failed',
-                            error: {
-                                original: err._object,
-
-                                // fetch only message and type from each error
-                                details: _.map(err.details, ({message, type}) => ({
-                                    message: message.replace(/['"]/g, ''),
-                                    type
-                                }))
-                            }
+                            status: 'error',
+                            details: err.details
                         };
 
-                        // Custom Error
-                        const CustomError = {
+                        // Generic Error
+                        const genericError = {
                             status: 'error',
-                            error: 'Invalid request. Please review your request and try again.'
+                            message: 'Invalid request. Please review your request and try again.'
                         };
 
                         // Send back the JSON error response
-                        res.status(422).json(_useJoiError ? JoiError : CustomError);
+                        res.status(422).json(_useJoiError ? JoiError : genericError);
 
                     } else {
                         // Replace req.body with the data after Joi validation
                         req.body = data;
                         next();
                     }
-
                 });
-
             }
         }
         next();

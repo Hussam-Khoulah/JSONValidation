@@ -12,7 +12,7 @@ const validateRequest = schemaValidator(true);
 const genericSuccessHandler = (req, res, next) => {
     res.json({
         status: 'success',
-        data: req.body,
+        // data: req.body,
     })
 };
 
