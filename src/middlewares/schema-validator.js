@@ -15,14 +15,13 @@ module.exports = (useJoiError = false) => {
     const _validationOptions = {
         abortEarly: false, // abort after the last validation error
         allowUnknown: true, // allow unknown keys that will be ignored
-        stripUnknown: true // remove unknown keys from the validated data
+        stripUnknown: false // remove unknown keys from the validated data
     };
 
     // return the validation middleware
     return (req, res, next) => {
 
         const route = req.route.path;
-        console.log('route: ' + route);
         const method = req.method.toLowerCase();
 
         if (_.includes(_supportedMethods, method)) {
@@ -53,8 +52,8 @@ module.exports = (useJoiError = false) => {
 
                         // Custom Error
                         const CustomError = {
-                            status: 'failed',
-                            error: 'Invalid request data. Please review request and try again.'
+                            status: 'error',
+                            error: 'Invalid request. Please review your request and try again.'
                         };
 
                         // Send back the JSON error response
@@ -70,7 +69,6 @@ module.exports = (useJoiError = false) => {
 
             }
         }
-
         next();
     };
 };

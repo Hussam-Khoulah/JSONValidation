@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d55c8db-13ee-4213-b786-665d83c992c1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/schema-loader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/sample/authSchema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/sample/paymentSchema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/sample/personSchema.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/hcn/booking/paymentSchema.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/SchemaValidator.js" afterPath="$PROJECT_DIR$/src/middlewares/schema-validator.js" />
+      <change beforePath="$PROJECT_DIR$/schemas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/schema-validator.js" afterPath="$PROJECT_DIR$/src/middlewares/schema-validator.js" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change beforePath="$PROJECT_DIR$/src/schema-loader.js" afterPath="$PROJECT_DIR$/src/schema-loader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="authSchema.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/schemas/sample/authSchema.js">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema-loader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/schema-loader.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -38,11 +48,9 @@
       <file leaf-file-name="schema-validator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/middlewares/schema-validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="38" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="429">
+              <caret line="55" column="95" lean-forward="true" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,6 +67,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>14</find>
+      <find>useJoiError</find>
+      <find>obkect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,15 +86,16 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/src/schemaLoader.js" />
         <option value="$PROJECT_DIR$/src/schemas/test/person-schema.js" />
-        <option value="$PROJECT_DIR$/src/routes.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/auth-schema.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/payment-schema.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/person-schema.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/personSchema.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/paymentSchema.js" />
-        <option value="$PROJECT_DIR$/src/middlewares/schema-validator.js" />
-        <option value="$PROJECT_DIR$/src/schema-loader.js" />
         <option value="$PROJECT_DIR$/src/schemas/sample/authSchema.js" />
+        <option value="$PROJECT_DIR$/src/middlewares/schema-validator.js" />
+        <option value="$PROJECT_DIR$/src/routes.js" />
+        <option value="$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js" />
+        <option value="$PROJECT_DIR$/src/schema-loader.js" />
       </list>
     </option>
   </component>
@@ -106,8 +117,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -136,12 +148,6 @@
               <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSONValidation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSONValidation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,9 +179,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/schemas/hcn/availability/testFolder" />
       <recent name="$PROJECT_DIR$/src/schemas/hcn/booking" />
+      <recent name="$PROJECT_DIR$/src/schemas/hcn/search" />
+      <recent name="$PROJECT_DIR$/src/schemas/hcn/reprice" />
       <recent name="$PROJECT_DIR$/src/schemas/hcn/availability" />
+      <recent name="$PROJECT_DIR$/src/schemas/hcn/availability/testFolder" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -207,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534051552775</updated>
       <workItem from="1534051554203" duration="19955000" />
-      <workItem from="1535148956026" duration="19981000" />
+      <workItem from="1535148956026" duration="31607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39936000" />
+    <option name="totallyTimeSpent" value="51562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -274,7 +282,7 @@
         <state relative-caret-position="405">
           <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -334,14 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -350,31 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/schema-loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schemas/sample/personSchema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/schemas/sample/paymentSchema.js">
+    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/availability/paymentSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
@@ -382,21 +358,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/reprice/paymentSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/sample/personSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="75" lean-forward="true" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/search/searchRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/hcn/booking/paymentSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schemas/sample/paymentSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/schemas/sample/authSchema.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/schema-loader.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/middlewares/schema-validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="429">
+          <caret line="55" column="95" lean-forward="true" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>

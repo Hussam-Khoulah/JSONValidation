@@ -16,7 +16,7 @@ const getSchemas = (root) => {
             let newSchemaAddress = currentPath.substring(11, currentPath.length - 3);
             // newSchema = newSchema.replace('.js', '');
             schemaAddresses.push(newSchemaAddress);
-        } else if (stats.isDirectory()){
+        } else if (stats.isDirectory()) {
             getSchemas(currentPath);
         }
     }

@@ -17,7 +17,6 @@ const genericSuccessHandler = (req, res, next) => {
 };
 
 let schemaAddresses = getSchemas('src/schemas');
-console.log(JSON.stringify(schemaAddresses));
 
 for (let i = 0; i < schemaAddresses.length; i++) {
     router.post(schemaAddresses[i], validateRequest, genericSuccessHandler);
